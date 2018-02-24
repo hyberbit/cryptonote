@@ -1,4 +1,4 @@
-nadd_definitions(-DSTATICLIB)
+add_definitions(-DSTATICLIB)
 
 file(GLOB_RECURSE BlockchainExplorer BlockchainExplorer/*)
 file(GLOB_RECURSE Common Common/*)
